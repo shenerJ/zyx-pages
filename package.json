@@ -1,0 +1,35 @@
+{
+  "name": "zyx-pages",
+  "version": "0.1.0",
+  "description": "Awesome node modules.",
+  "keywords": [
+    "zyx-pages",
+    "zce"
+  ],
+  "repository": "shenerj/zyx-pages",
+  "license": "MIT",
+  "author": "shenerj <chuntiandx@126.com> (https://github.com/shenerj)",
+  "main": "lib/index.js",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "lint": "standard --fix",
+    "prepare": "npm run lint"
+  },
+  "renovate": {
+    "extends": [
+      "zce"
+    ]
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "standard": "16.0.3"
+  },
+  "engines": {
+    "node": ">=12"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  }
+}
